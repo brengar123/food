@@ -23,7 +23,7 @@ public class RestaurantList {
         String name = "Classic Burgers";
         double rating = 4.8;
         String location = "564 Hume Hwy YAGOONA 2199";
-        String cuisine = "Burgers";
+        String cuisine = "Burgers, American";
         return new Restaurant(name, rating, location, cuisine);
     }
 
@@ -31,7 +31,7 @@ public class RestaurantList {
         String name = "Mcdonald's";
         double rating = 4.5;
         String location = "872 Hume Hwy BASS HILL 2197";
-        String cuisine = "Fast Food";
+        String cuisine = "Fast Food, Burgers";
         return new Restaurant(name, rating, location, cuisine);
     }
 
@@ -39,7 +39,7 @@ public class RestaurantList {
         String name = "KFC";
         double rating = 4.3;
         String location = "538 Hume Hwy YAGOONA 2199";
-        String cuisine = "Fast Food";
+        String cuisine = "Fast Food, Fried Chicken";
         return new Restaurant(name, rating, location, cuisine);
     }
 
@@ -47,7 +47,7 @@ public class RestaurantList {
         String name = "Hungry Jack's";
         double rating = 4.5;
         String location = "739 Hume Hwy BASS HILL 2197";
-        String cuisine = "Burgers";
+        String cuisine = "Fast Food, Burgers";
         return new Restaurant(name, rating, location, cuisine);
     }
 
@@ -63,7 +63,7 @@ public class RestaurantList {
         String name = "Sakura Fresh Sushi";
         double rating = 4.6;
         String location = "2/23 Selems Parade, REVESBY 2212";
-        String cuisine = "Sushi";
+        String cuisine = "Japanese, Sushi";
         return new Restaurant(name, rating, location, cuisine);
     }
 
@@ -71,7 +71,7 @@ public class RestaurantList {
         String name = "Subway";
         double rating = 3.5;
         String location = "564 Hume Hwy YAGOONA 2199";
-        String cuisine = "Sandwich";
+        String cuisine = "Healthy, Sandwich";
         return new Restaurant(name, rating, location, cuisine);
     }
 
@@ -79,7 +79,7 @@ public class RestaurantList {
         String name = "Red Pepper Bistro";
         double rating = 4.0;
         String location = "19 Morwick St STRATHFIELD 2135";
-        String cuisine = "Korean";
+        String cuisine = "Korean, Fried Chicken";
         return new Restaurant(name, rating, location, cuisine);
     }
 
@@ -87,7 +87,7 @@ public class RestaurantList {
         String name = "Domino's Pizza";
         double rating = 3.7;
         String location = "2/872 Hume Hwy BASS HILL 2197";
-        String cuisine = "Pizza";
+        String cuisine = "Fast Food, Pizza";
         return new Restaurant(name, rating, location, cuisine);
     }
 
