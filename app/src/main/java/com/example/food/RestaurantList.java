@@ -2,10 +2,10 @@ package com.example.food;
 
 import java.util.ArrayList;
 
-public class restaurants {
+public class RestaurantList {
 
-    public static ArrayList<restaurantList> getRestaurantList() {
-        ArrayList<restaurantList> restaurantLists = new ArrayList();
+    public static ArrayList<Restaurant> getRestaurantList() {
+        ArrayList<Restaurant> restaurantLists = new ArrayList();
         restaurantLists.add(getClassicBurgers());
         restaurantLists.add(getMcdonalds());
         restaurantLists.add(getKFC());
@@ -19,83 +19,83 @@ public class restaurants {
         return restaurantLists;
     }
 
-    public static restaurantList getClassicBurgers() {
+    public static Restaurant getClassicBurgers() {
         String name = "Classic Burgers";
         double rating = 4.8;
         String location = "564 Hume Hwy YAGOONA 2199";
         String cuisine = "Burgers";
-        return new restaurantList(name, rating, location, cuisine);
+        return new Restaurant(name, rating, location, cuisine);
     }
 
-    public static restaurantList getMcdonalds() {
+    public static Restaurant getMcdonalds() {
         String name = "Mcdonald's";
         double rating = 4.5;
         String location = "872 Hume Hwy BASS HILL 2197";
         String cuisine = "Fast Food";
-        return new restaurantList(name, rating, location, cuisine);
+        return new Restaurant(name, rating, location, cuisine);
     }
 
-    public static restaurantList getKFC() {
+    public static Restaurant getKFC() {
         String name = "KFC";
         double rating = 4.3;
         String location = "538 Hume Hwy YAGOONA 2199";
         String cuisine = "Fast Food";
-        return new restaurantList(name, rating, location, cuisine);
+        return new Restaurant(name, rating, location, cuisine);
     }
 
-    public static restaurantList getHJ() {
+    public static Restaurant getHJ() {
         String name = "Hungry Jack's";
         double rating = 4.5;
         String location = "739 Hume Hwy BASS HILL 2197";
         String cuisine = "Burgers";
-        return new restaurantList(name, rating, location, cuisine);
+        return new Restaurant(name, rating, location, cuisine);
     }
 
-    public static restaurantList getGiaHoi() {
+    public static Restaurant getGiaHoi() {
         String name = "Gia Hoi Restaurant";
         double rating = 4.0;
         String location = "299 Chapel Rd BANKSTOWN 2200";
         String cuisine = "Vietnamese";
-        return new restaurantList(name, rating, location, cuisine);
+        return new Restaurant(name, rating, location, cuisine);
     }
 
-    public static restaurantList getSakura() {
+    public static Restaurant getSakura() {
         String name = "Sakura Fresh Sushi";
         double rating = 4.6;
         String location = "2/23 Selems Parade, REVESBY 2212";
         String cuisine = "Sushi";
-        return new restaurantList(name, rating, location, cuisine);
+        return new Restaurant(name, rating, location, cuisine);
     }
 
-    public static restaurantList getSubway() {
+    public static Restaurant getSubway() {
         String name = "Subway";
         double rating = 3.5;
         String location = "564 Hume Hwy YAGOONA 2199";
         String cuisine = "Sandwich";
-        return new restaurantList(name, rating, location, cuisine);
+        return new Restaurant(name, rating, location, cuisine);
     }
 
-    public static restaurantList getRedPepper() {
+    public static Restaurant getRedPepper() {
         String name = "Red Pepper Bistro";
         double rating = 4.0;
         String location = "19 Morwick St STRATHFIELD 2135";
         String cuisine = "Korean";
-        return new restaurantList(name, rating, location, cuisine);
+        return new Restaurant(name, rating, location, cuisine);
     }
 
-    public static restaurantList getDominos() {
+    public static Restaurant getDominos() {
         String name = "Domino's Pizza";
         double rating = 3.7;
         String location = "2/872 Hume Hwy BASS HILL 2197";
         String cuisine = "Pizza";
-        return new restaurantList(name, rating, location, cuisine);
+        return new Restaurant(name, rating, location, cuisine);
     }
 
-    public static restaurantList getAn() {
+    public static Restaurant getAn() {
         String name = "An Restaurant";
         double rating = 4.0;
         String location = "27 Greenfield Parade BANKSTOWN 2200";
         String cuisine = "Vietnamese";
-        return new restaurantList(name, rating, location, cuisine);
+        return new Restaurant(name, rating, location, cuisine);
     }
 }

@@ -1,13 +1,13 @@
 package com.example.food;
 
-public class restaurantList {
+public class Restaurant {
 
     private String name;
     private double rating;
     private String location;
     private String cuisine;
 
-    public restaurantList(String name, double rating, String location, String cuisine) {
+    public Restaurant(String name, double rating, String location, String cuisine) {
         this.name = name;
         this.rating = rating;
         this.location = location;
