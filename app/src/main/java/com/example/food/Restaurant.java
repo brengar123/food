@@ -1,12 +1,13 @@
 package com.example.food;
 
 public class Restaurant {
-
+    //attributes
     private String name;
     private double rating;
     private String location;
     private String cuisine;
 
+    //Construtors
     public Restaurant(String name, double rating, String location, String cuisine) {
         this.name = name;
         this.rating = rating;
@@ -14,6 +15,7 @@ public class Restaurant {
         this.cuisine = cuisine;
     }
 
+    //Getters and Setters
     public String getName() {
         return name;
     }

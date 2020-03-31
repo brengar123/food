@@ -2,6 +2,7 @@ package com.example.food;
 
 import java.util.ArrayList;
 
+//Class used to manage data of Restaurants
 public class RestaurantList {
 
     public static ArrayList<Restaurant> getRestaurantList() {
@@ -19,6 +20,7 @@ public class RestaurantList {
         return restaurantLists;
     }
 
+    //Methods used to return data of restaurants
     public static Restaurant getClassicBurgers() {
         String name = "Classic Burgers";
         double rating = 4.8;
